@@ -1,0 +1,73 @@
+
+
+.avtar{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.one,.two,.three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid gray; */
+  width: 70px;
+  height: 60px;
+}
+
+
+
+.four,.five{
+  margin-left: 20px;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  /* margin-left: 694px; */
+ 
+}
+
+.third{
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+.five{
+  margin-left: 20px;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+ 
+}
+.input{
+width: 260px;
+height: 42px;
+border: 2px solid black;
+margin-top: 6px;
+border-radius: 25px;
+margin-left: 80px;
+
+}
+
+
+@media (max-width: 600px) {
+  .hidden-xs {
+    display: none; /* Hide on small screens */
+  }
+}
+
+.box1,.box2, .box3, .box4{
+  border: 2px solid black;
+  height: 125px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.border2{
+  height: 530px;
+  border: 2px solid black;
+  margin: 10px;
+}
