@@ -1184,7 +1184,7 @@ function ResponsiveDrawer(props) {
                         md={12}
                         xs={12}
                         sx={{
-                            border: '1px solid black',
+                            // border: '1px solid black',
                             marginTop: '30px',
                             display: 'flex',
                             flexDirection: 'row',
@@ -1278,6 +1278,7 @@ function ResponsiveDrawer(props) {
                     </Grid>
 
 
+                    {/* Second Grid - One Box with Text and Download Button */}
                     <Grid item lg={9} md={6} sm={12} xs={12} style={{ backgroundColor: "white" }}>
 
                         <div className='boxone'>
@@ -1414,8 +1415,8 @@ function ResponsiveDrawer(props) {
                                 flexWrap: 'wrap',
                             }}
                         >
-                            <Grid item xs={12} sm={12} md={12} lg={8} style={{ padding: "18px", backgroundColor: "white" }} spacing={2} >
-                                <div style={{ padding: '5px', marginBottom: '10px', width: '100%' }}>
+                            <Grid item xs={12} sm={12} md={12} lg={8} style={{ padding: "0px 18px",border:"2px solid black" }} spacing={2} >
+                                <div style={{ width: '100%' }}>
                                     <TableContainer component={Paper}>
                                         <b style={{ margin: "10px" }}> Purchase History</b>
                                         <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -1449,6 +1450,7 @@ function ResponsiveDrawer(props) {
 
 
                             <Grid item xs={12} sm={12} md={12} lg={4} sx={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: "18px", backgroundColor: "white" }}>
+                                {/* First Row */}
                                 <Grid item >
                                     <div style={{ padding: '1px', marginBottom: '10px', width: '100%', height: 'auto' }}>
                                         <Typography><b>Business Survey</b></Typography>
@@ -1458,6 +1460,7 @@ function ResponsiveDrawer(props) {
 
 
                                 <Grid item >
+                                    {/* First Column */}
                                     <Grid container spacing={2}>
                                         <Grid item xs={12} md={4} sm={6}>
                                             <div style={{ padding: '1px', marginBottom: '10px', width: '100%', height: 'auto' }}>
@@ -1476,6 +1479,7 @@ function ResponsiveDrawer(props) {
                                             </div>
                                         </Grid>
 
+                                        {/* Second Column */}
                                         <Grid item xs={12} md={8} sm={6} >
                                             <Typography><b>Villa called Archagel</b></Typography>
                                             <Typography>St, San Diego, CA</Typography>
@@ -1485,6 +1489,7 @@ function ResponsiveDrawer(props) {
                                     </Grid>
                                 </Grid>
 
+                                {/* Third Row */}
                                 <Grid item >
                                     <Grid container spacing={2}>
                                         <Grid item xs={12} md={4} sm={6}>
@@ -1503,6 +1508,7 @@ function ResponsiveDrawer(props) {
                                             </div>
                                         </Grid>
 
+                                        {/* Second Column */}
                                         <Grid item xs={12} md={8} sm={6} >
                                             <Typography><b>Luxury villa in Hermo</b></Typography>
                                             <Typography>Glendale, CA</Typography>
@@ -1512,6 +1518,7 @@ function ResponsiveDrawer(props) {
                                     </Grid>
                                 </Grid>
 
+                                {/* four Row */}
                                 <Grid item >
                                     <Grid container spacing={2}>
                                         <Grid item xs={12} md={4} sm={6}>
@@ -1531,6 +1538,7 @@ function ResponsiveDrawer(props) {
                                             </div>
                                         </Grid>
 
+                                        {/* Second Column */}
                                         <Grid item xs={12} md={8} sm={6} >
                                             <Typography><b>House on the Clarita</b></Typography>
                                             <Typography>Business Survey</Typography>
