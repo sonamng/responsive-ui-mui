@@ -1,73 +1,130 @@
-
-
-.avtar{
+.avtar {
   width: 40px;
   height: 40px;
   border-radius: 20px;
   border: 2px solid black;
 }
-.one,.two,.three {
+
+.one,
+.two,
+.three {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid gray; */
   width: 70px;
   height: 60px;
 }
 
 
 
-.four,.five{
+.four,
+.five {
   margin-left: 20px;
   /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
-  /* margin-left: 694px; */
- 
+
 }
 
-.third{
-  width: 25px;
-  height: 25px;
-  background-color: red;
-  color: white;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-}
-.five{
-  margin-left: 20px;
-  /* border: 2px solid blue; */
-  display: flex;
-  justify-content: center;
- 
-}
-.input{
-width: 260px;
-height: 42px;
-border: 2px solid black;
-margin-top: 6px;
-border-radius: 25px;
-margin-left: 80px;
+.input {
+  width: 260px;
+  height: 42px;
+  /* border: 2px solid black; */
+  margin-top: 6px;
+  border-radius: 25px;
+  margin-left: 80px;
 
 }
 
 
 @media (max-width: 600px) {
   .hidden-xs {
-    display: none; /* Hide on small screens */
+    display: none;
   }
 }
 
-.box1,.box2, .box3, .box4{
-  border: 2px solid black;
+.box1 {
+  /* border: 2px solid black; */
   height: 125px;
-  margin: 10px;
+  margin-top: -17px;
   padding: 10px;
+  margin-right: 20px;
+
 }
 
-.border2{
-  height: 530px;
-  border: 2px solid black;
+
+.box2 {
+  /* border: 2px solid black; */
+  height: 125px;
+  margin-top: 20px;
+  margin-bottom: 22px;
+  padding: 10px;
+  margin-right: 20px;
+
+}
+
+.box3 {
+  /* border: 2px solid black; */
+  height: 125px;
+  margin-top: 20px;
+  margin-bottom: 22px;
+  padding: 10px;
+  margin-right: 20px;
+
+}
+
+.box4 {
+  /* border: 2px solid black; */
+  height: 125px;
+  margin-top: 25px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+
+
+
+.boxone {
+  /* border: 2px solid black; */
+  height: 80px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.button {
+  /* border: 2px solid blue; */
+  width: auto;
+  padding: 6px;
+}
+
+.boxtwo {
+  height: 105px;
+  margin: 10px;
+  padding: 5px;
+
+}
+.boxsss {
+  /* border: 2px solid black; */
   margin: 10px;
 }
+
+.boxthree {
+  /* border: 2px solid black; */
+  height: 227px;
+  margin: 10px;
+  padding: 5px;
+
+}
+
+.boxfour {
+  /* border: 2px solid black; */
+  height: 85px;
+  margin: 10px;
+  padding: 5px;
+
+}
+
+.col {
+  color: white;
+}
+
